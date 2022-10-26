@@ -1,0 +1,16 @@
+<div class="spicy">
+    <div ng-controller="MainNestedCtrl">
+        <p>Oggi è il giorno: {{today}}</p>
+        <p>Io sono {{name}}</p>
+    </div>
+    <div ng-controller="ChildNestedCtrl">
+        <p>Oggi è il giorno: {{today}}</p>
+        <p>Io sono {{name}}</p>
+
+        <div ng-controller="GrandNestedCtrl">
+            <p>Oggi è il giorno: {{today}}</p>
+            <p>Io sono {{name}}</p>
+        </div>
+    </div>
+
+</div>
